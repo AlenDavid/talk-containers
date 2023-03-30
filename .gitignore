@@ -1,0 +1,11 @@
+# Whitelist mode
+*
+!.gitignore
+
+# general git files
+!license
+!readme.md
+
+# project files and folders
+!docker-compose.yml
+!services/*
