@@ -10,5 +10,7 @@
 
 # project files and folders
 !docker-compose.yml
+!go.*
+
 !services
 !services/**
