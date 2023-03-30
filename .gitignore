@@ -1,3 +1,5 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
 # Whitelist mode
 *
 !.gitignore
@@ -8,4 +10,5 @@
 
 # project files and folders
 !docker-compose.yml
-!services/*
+!services
+!services/**
