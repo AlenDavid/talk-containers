@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  bakery-web:
+    build:
+      context: services/bakery-web
+      dockerfile: Dockerfile.dev
+    ports:
+      - "3000:3000"
+  bakery-app:
+    build:
+      context: services/bakery-app
+    ports:
+      - "8080:8080"
