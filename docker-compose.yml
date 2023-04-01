@@ -12,3 +12,9 @@ services:
       context: services/bakery-app
     ports:
       - "8080:8080"
+
+  mongodb:
+    image: mongo
+    restart: unless-stopped
+    ports:
+      - 27017:27017
