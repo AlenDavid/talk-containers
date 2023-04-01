@@ -11,6 +11,7 @@
 # project files and folders
 !docker-compose.yml
 !go.*
+!Makefile
 
 !services
 !services/**
