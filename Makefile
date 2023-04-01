@@ -1,3 +1,5 @@
+build: containers publish release
+
 container-app:
 	docker build -t talks/bakery-app ./services/bakery-app
 container-web:
@@ -17,5 +19,3 @@ publish: publish-app publish-web
 release:
 	heroku container:release web -a bakery-app
 	heroku container:release web -a bakery-web
-
-build: containers publish release
